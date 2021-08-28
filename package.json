@@ -1,5 +1,5 @@
 {
-  "name": "wouldyouratherapp",
+  "name": "testing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,8 +8,14 @@
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "redux": "^4.1.1",
+    "redux-saga": "^1.1.3",
+    "web-vitals": "^1.1.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.86.0",
+    "react-router-dom": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
