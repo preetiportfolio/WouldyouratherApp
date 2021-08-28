@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux';
+import { Store } from './Store/store';
 
 ReactDOM.render(
-  <div>
-    Would You Rather
-  </div>,
+  <Provider store={Store}>  
+    <App />
+</Provider>
+  ,
   document.getElementById('root')
 );
